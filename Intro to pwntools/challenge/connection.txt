@@ -1,0 +1,3 @@
+some ip + port
+- conncetion to server for ctf
+- changes dynamically
