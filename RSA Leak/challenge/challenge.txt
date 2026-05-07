@@ -1,0 +1,38 @@
+============================================================
+          INTERCEPTED TRANSMISSION - TOP SECRET
+============================================================
+
+Our field agents intercepted an encrypted message from a
+target's server.
+
+We managed to extract the public key and the ciphertext.
+Your mission: break the encryption and recover the
+plaintext message.
+
+------------------------------------------------------------
+  PUBLIC KEY & CIPHERTEXT
+------------------------------------------------------------
+
+n = 474284397516047136454946754595585692350335633429396906883713885649480938275214189
+
+e = 65537
+
+c = 385858087101390690069739265636001616416238972658836435480350105437615268070727705
+
+------------------------------------------------------------
+  ANALYST NOTES
+------------------------------------------------------------
+
+RSA Security depends on the difficulty of factoring the
+modulus 'n' into its two prime factors 'p' and 'q'.
+
+If you can find p and q, you can compute:
+  phi(n) = (p - 1) * (q - 1)
+  d      = e^(-1) mod phi(n)   (modular inverse)
+  m      = c^d mod n           (plaintext as integer)
+
+Then convert 'm' from an integer back to bytes to read
+the message.
+
+Good luck, agent.
+============================================================
