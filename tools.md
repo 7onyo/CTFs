@@ -19,19 +19,20 @@ It is organized by category.
 
 ## Cryptography
 
-| Tool         | Purpose |
-|--------------|---------|
-| `dcode.fr`   | Comprehensive web toolkit for identifying and breaking ciphers, and decoding data |
+| Tool            | Purpose |
+|-----------------|---------|
+| `dcode.fr`      | Comprehensive web toolkit for identifying and breaking ciphers, and decoding data |
+| `cyberchef.org` | A web app for encoding, decoding, encryption, and data manipulation |
 
 ---
 
 ## Steganography
 
-| Tool               | Purpose |
-|--------------------|---------|
-| `binwalk`          | Extract embedded files and data from images or binaries |
-| `sonic visualiser` | Analyze audio files (especially useful for viewing spectrograms for hidden flags) |
-| `audacity`         | Audio editing and detailed waveform analysis |
+| Tool                 | Purpose |
+|----------------------|---------|
+| `binwalk`            | Extract embedded files and data from images or binaries |
+| `sonic visualiser`   | Analyze audio files (especially useful for viewing spectrograms for hidden flags) |
+| `audacity`           | Audio editing and detailed waveform analysis |
 
 ---
 
@@ -53,12 +54,13 @@ It is organized by category.
 
 ---
 
-## Web / Misc
+## Web / Misc / Network
 
-| Tool           | Purpose |
-|----------------|---------|
-| `wireshark`    | Analyze network traffic and inspect packet capture (`.pcap`) files |
-| `webhook.site` | Easily capture, inspect, and route incoming HTTP requests and webhooks |
+| Tool             | Purpose |
+|------------------|---------|
+| `wireshark`      | Analyze network traffic and inspect packet capture (`.pcap`) files |
+| `networkminer`   | Network Forensic Analysis Tool (NFAT) used to automatically extract files, images, and credentials from PCAP files |
+| `webhook.site`   | Easily capture, inspect, and route incoming HTTP requests and webhooks |
 
 ---
 
